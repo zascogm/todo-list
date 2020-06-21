@@ -7,8 +7,8 @@ import TodoList from "./components/TodoList";
 class App extends Component {
   state = {
     items: [
-      {id: 1, title: 'wake up'}, 
-      {id: 2, title: 'make breakfast'}
+      { id: 1, title: 'wake up' }, 
+      { id: 2, title: 'make breakfast' }
     ],
     id: uuidv4(),
     item: '',
